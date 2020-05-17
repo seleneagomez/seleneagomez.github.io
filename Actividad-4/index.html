@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Titulo de Pagina</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body class="m-3">
+	<h1>Si hay datos hay tabla </h1>
+
+
+	<h2>Tabla simple</h2>
+
+	<p>tabla - cuerpo - fila -celda</p>
+	<tables class="table table-bordered">
+		<!--tbody: table body -->
+		<tbody>
+			<!-- tr: table row -->
+			<tr>
+				<!-- td: table data cell -->
+				<td>Hola</td>
+			</tr>
+		</tbody>
+	</tables>
+
+	<h2>Tabla multiples filas y columnas</h2>
+
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+				<td>X</td>
+				<td>O</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>0</td>
+				<td>X</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>O</td>
+				<td>X</td>
+			</tr>
+
+	</table>
+
+	<h2>tabla con cabecera, cuerpo, pie de pagina y cation</h2>
+
+	<table class="table table-bordered table-striped table-hover table-dark">
+		<caption>Resumen de compra</caption>
+
+		<head>
+			<tr>
+				<th>Libros</th>
+				<th>Valor</th>
+		</head>
+
+		<tbody>
+			<tr>
+				<td><strong>El señor de los anillos - J.R.R. Tolkein</strong></td>
+				<td>$1550</td>
+			</tr>
+			<tr>
+				<td><strong>El codigo Da Vinci - Dan Brown</strong></td>
+				<td>$899</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>Total</th>
+				<th>$2449</th>
+			</tr>
+			</tfood>
+	</table>
+
+	<h2>columnas largas</h2>
+
+	<table class="table table-bordered table-striped table-hover table-dark">
+		<!-- me gusto el estilo dark asique esta tabla tambien decidi hacerla asi -->
+		<thead class="table-secondary">
+			<tr>
+				<th colspan="2">
+					Input
+				</th>
+				<th colspan="2">
+					Output
+				</th>
+			</tr>
+			<tr>
+				<th>A</th>
+				<th>B</th>
+				<th>AND</th>
+				<th>Or</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>True</td>
+				<td>True</td>
+				<td>True</td>
+				<td>True</td>
+			</tr>
+			<tr>
+				<td>True</td>
+				<td>False</td>
+				<td>False</td>
+				<td>True</td>
+			</tr>
+			<tr>
+				<td>False</td>
+				<td>True</td>
+				<td>False</td>
+				<td>True</td>
+			</tr>
+			<tr>
+				<td>False</td>
+				<td>False</td>
+				<td>False</td>
+				<td>False</td>
+			</tr>
+</body>
+
+</html>
